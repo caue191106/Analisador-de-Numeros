@@ -1,6 +1,7 @@
 body {
     background-color: rgb(70, 142, 236);
     font: normal 15pt Arial;
+    margin-top: 9%;
 }
 
 header {
@@ -19,10 +20,6 @@ section {
 
 #flista {
     width: 150px;
-}
-
-div {
-    padding-top: 15px;
 }
 
 select {

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de Exercício</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="mediaquery.css">
 </head>
 <body>
     <header>
@@ -13,17 +14,14 @@
     </header>
     <section>
         <div>
-
-            Número (entre 1 e 100) 
-            <input type="number" id="fnum"> 
-            <input type="button" value="Adicionar" onclick="adicionar()">
-    
+            <p class="num">Número (entre 1 e 100):
+                <input type="number" class="boxnum" id="fnum"> 
+                <input type="button"  class="button" value="Adicionar" onclick="adicionar()">   
+            </p>
             <div><select name="flista" id="flista" size="6"></select></div>
-
             <input type="button" value="Finalizar" onclick="finalizar()">
         </div>
         <div id="res">
-
         </div>
     </section>
     <footer>

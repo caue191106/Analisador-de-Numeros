@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px){
+    body {
+        margin-top: 20%;
+    }
+
+    section {
+        width: 400px;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    .num {
+        margin: 0% 20% 10px 20%;
+    }
+
+    .boxnum {
+        margin-top: 15px;
+    }
+
+    .button {
+        margin: 15px 0px 15px 0px;
+    }
+
+    select {
+        margin: -10px 0px 15px 0px;
+    }
+}
